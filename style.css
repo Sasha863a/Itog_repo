@@ -1,0 +1,176 @@
+body{margin:0px; background: url(bground.jpg);
+    background-size:0.3%;
+    }
+    
+    a {text-decoration: none;}
+    
+    
+    /*-------------------------------Шапка-------------------------*/
+    
+    
+    
+    header{
+    width: 100%;
+    min-width: 2000px;
+    height: 61px;
+    position: fixed;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    background: black;
+    font-family:Lucida Sans Unicode;
+    }
+    
+    header ul {
+    display: inline;
+    float: left;
+    padding: 0px;
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 0;
+    }
+    
+    header li{
+    display: inline;
+    float: left;
+    }
+    
+    header a{
+    display: inline;
+    float: left;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    }
+    
+    header a:hover{
+    display: inline;
+    float: left;
+    transition: color 0.75s; 
+    background: 0.5s ease;
+    background: #306ABF;
+    color: white;
+    }
+    
+    
+    /*-------------------------------Основной блок-------------------------*/
+    
+    
+    .div1 {
+        display: block;
+        position: absolute;
+        box-shadow: 0 0 15px 3px;
+        color: black;
+        background: rgb(255,255,255, 0.6);
+        opacity: 1;
+        text-align: left;
+        font-family: Lucida Sans Unicode;
+        font-size: 15px;
+        position: relative;
+        padding: 10;
+        margin-top: 5.3%;
+        left: 10.25%;
+        height: auto;
+        width: 70%;
+        min-width: 600px;
+    }
+    
+    
+
+    
+    
+    
+    
+    /*-------------------------------Блок сообщество-------------------------*/
+    
+    
+    .div3{
+    border: 1px solid black;	
+    background: rgb(0,0,0, 0.78);
+    opacity: 1;
+    text-align: left;
+    font-family: Lucida Sans Unicode;
+    font-size: 14px;
+    display: inline;
+    position: fixed;
+    padding: 5;
+    top: 11%;
+    right: 0.4%;
+    height: auto;
+    width: 15%;
+    min-width: 150px;
+    z-index: 4;
+    color: white;
+    }
+    
+    .div3 ul{
+    list-style: none;
+    padding: 0;
+    margin-left: 3.5%;
+    }
+    
+    .div3 li{
+    padding: 0;
+    }
+    
+    
+    /*-------------------------------Картинки-------------------------*/
+    
+    .pic1 {
+        border: solid 0.1px;
+        margin-right: 4%;
+        height: 30%;
+        float: left;
+        width: 400px;
+    }
+    
+    
+    .pic2 {
+        border: solid 0.1px;
+        float: left;
+        height: 30%;
+        margin-right: 6px;
+        width: 400px;
+    }
+    
+    .pic3 {
+        border: solid 0.1px;
+        float: right;
+        height: 30%;
+        float: left;
+        margin-right: 10px;
+        width: 400px;
+    }
+
+    h1{
+    color:black;	
+    }
+    
+    /*-------------------------------Текст, заголовки и т.д.-------------------------*/
+    
+    h2{
+    justify-content: center;
+    text-align:center;
+    color: #0084ff;
+    }
+    
+    h3{
+    margin-left: 3%;
+    }
+    
+    p1{
+    font-style:italic;
+    }
+    
+    
+    
+    /*------------------------------Цвет выделения и скролл-бар--------------------*/
+    ::-webkit-scrollbar {width: 7px; background-color: black;}
+    ::-webkit-scrollbar-thumb {background-color: darkblue;}
+    
+    ::selection {
+    background: gray;
+    }
+    
